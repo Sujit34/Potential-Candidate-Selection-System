@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A20F3153-D120-4E92-8019-C41C978DF365}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project_v._2</RootNamespace>
+    <AssemblyName>Project v.2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Requirement_civil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Requirement_civil.Designer.cs">
+      <DependentUpon>Add_Requirement_civil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Requirement_ee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Requirement_ee.Designer.cs">
+      <DependentUpon>Add_Requirement_ee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_arenacs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_arenacs.Designer.cs">
+      <DependentUpon>Admin_arenacs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_arena_civil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_arena_civil.Designer.cs">
+      <DependentUpon>Admin_arena_civil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_arena_ee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_arena_ee.Designer.cs">
+      <DependentUpon>Admin_arena_ee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Login.Designer.cs">
+      <DependentUpon>Admin_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Requirement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Requirement.Designer.cs">
+      <DependentUpon>Add_Requirement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attribute.cs" />
+    <Compile Include="Choose field.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose field.Designer.cs">
+      <DependentUpon>Choose field.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Choose_Field_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose_Field_Admin.Designer.cs">
+      <DependentUpon>Choose_Field_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Choose_Field_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose_Field_HR.Designer.cs">
+      <DependentUpon>Choose_Field_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HR_Arena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HR_Arena.Designer.cs">
+      <DependentUpon>HR_Arena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HR_Arena_Civil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HR_Arena_Civil.Designer.cs">
+      <DependentUpon>HR_Arena_Civil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HR_Arena_ee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HR_Arena_ee.Designer.cs">
+      <DependentUpon>HR_Arena_ee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HR_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HR_Detail.Designer.cs">
+      <DependentUpon>HR_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HR_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HR_Login.Designer.cs">
+      <DependentUpon>HR_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Object.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoughSet.cs" />
+    <Compile Include="Sign_Up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign_Up.Designer.cs">
+      <DependentUpon>Sign_Up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Upload_CV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upload_CV.Designer.cs">
+      <DependentUpon>Upload_CV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Upload_cv_civil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upload_cv_civil.Designer.cs">
+      <DependentUpon>Upload_cv_civil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Upload_cv_eee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upload_cv_eee.Designer.cs">
+      <DependentUpon>Upload_cv_eee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_HR.Designer.cs">
+      <DependentUpon>View_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_HR_Civil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_HR_Civil.Designer.cs">
+      <DependentUpon>view_HR_Civil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_job.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_job.Designer.cs">
+      <DependentUpon>view_job.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_job_civil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_job_civil.Designer.cs">
+      <DependentUpon>view_job_civil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_job_ee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_job_ee.Designer.cs">
+      <DependentUpon>view_job_ee.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Requirement.resx">
+      <DependentUpon>Add_Requirement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Requirement_civil.resx">
+      <DependentUpon>Add_Requirement_civil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Requirement_ee.resx">
+      <DependentUpon>Add_Requirement_ee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_arenacs.resx">
+      <DependentUpon>Admin_arenacs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_arena_civil.resx">
+      <DependentUpon>Admin_arena_civil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_arena_ee.resx">
+      <DependentUpon>Admin_arena_ee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Login.resx">
+      <DependentUpon>Admin_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose field.resx">
+      <DependentUpon>Choose field.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Field_Admin.resx">
+      <DependentUpon>Choose_Field_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Field_HR.resx">
+      <DependentUpon>Choose_Field_HR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR_Arena.resx">
+      <DependentUpon>HR_Arena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR_Arena_Civil.resx">
+      <DependentUpon>HR_Arena_Civil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR_Arena_ee.resx">
+      <DependentUpon>HR_Arena_ee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR_Detail.resx">
+      <DependentUpon>HR_Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR_Login.resx">
+      <DependentUpon>HR_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sign_Up.resx">
+      <DependentUpon>Sign_Up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upload_CV.resx">
+      <DependentUpon>Upload_CV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upload_cv_civil.resx">
+      <DependentUpon>Upload_cv_civil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upload_cv_eee.resx">
+      <DependentUpon>Upload_cv_eee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_HR.resx">
+      <DependentUpon>View_HR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_HR_Civil.resx">
+      <DependentUpon>view_HR_Civil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_job.resx">
+      <DependentUpon>view_job.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_job_civil.resx">
+      <DependentUpon>view_job_civil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_job_ee.resx">
+      <DependentUpon>view_job_ee.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Front.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HR.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
